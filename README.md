@@ -1,7 +1,5 @@
 # ORMeCommerce
 Building the back end for an e-commerce site by modifying starter code.
-# SQL-Employee-Tracker
-Building a Content Management System from scratch.
 
 ## Description
 > 
@@ -18,16 +16,21 @@ Building a Content Management System from scratch.
   ---
   ## Installation
    
-   >None.  Navigate using the link below to the deployed app on Heroku.
+   >Source schema.sql in mySQL.  Then in the CLI, use npm run seed to add the data.  Next use npm start to start the server.  Then use Insomnia to verify all the get, post, put and delete routes.
  
   ---
   ## Use
 
-  >Click on get started and enter a note title and body.  Then save the note using the disc icon or add a new note using the plus symbol.  You can also delete a note by clicking on the garbage can icon next to the note. 
+  >  Use Insomnia to verify all the get, post, put and delete routes.
  
-  >Here is a link to the deployed application: 
+  >Here is a link to the video tutorial: https://watch.screencastify.com/v/3XUELOzZQyDuEHlAn0YE
   
-  >Here is a link to the github repository: 
+  >Here is a link to the github repository: https://github.com/gus1919/ORMeCommerce
+
+> Here is a screenshot of the app in action:
+> ![Screenshot (48)](https://user-images.githubusercontent.com/86876335/138785262-86a4a22b-48b3-4ee7-a68f-68c720f9592b.png)
+
+> ![Screenshot (49)](https://user-images.githubusercontent.com/86876335/138785270-004c9cc8-ff41-4f94-8481-678f85298a71.png)
 
 
 
@@ -47,13 +50,14 @@ Building a Content Management System from scratch.
 * node.js
 * express.js
 * NPM
-* Bootstrap
-* fs
-* Heroku
-* uuid
+* MySQL2
+* dotenv
+* Insomnia
+* sequelize
+* nodemon
 ---
   ## Issues
-> 
+> None known.
   ---
 
 ## License
